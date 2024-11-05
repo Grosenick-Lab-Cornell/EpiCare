@@ -72,15 +72,23 @@ In addition to the EpiCare environment, we have included single-file implementat
 
 ## Reproducing our Results
 
+Below we describe how to find the original training data from the paper as well as how to generate new/additional training data. All data contained or generated as beloew conforms to the D4RL standards and can be loaded for other RL pipelines using our data loader found in `epicare.utils.load_custom_datset`.
+
+*We strongly recommend reporting results using the original training data for the sake of comparability*.
+
+### Using Original Training Data
+
+The exact training data we used to generate our results can be found in `./data/`.
+
 ### Generating Training Data
 
-To generate the necessary training data, navigate to the `data` directory and execute:
+To generate new training data (which will not be identical to the original training data), navigate to the `data` directory and execute:
 
 ```bash
 python data_gen.py
 ```
 
-This script prepares the data required for training the included offline RL models as well as any other models you may want to test. This data conforms to the D4RL standards and can be loaded for other RL pipelines using our data loader found in `epicare.utils.load_custom_datset`.
+This script prepares the data required for training the included offline RL models as well as any other models you may want to test.
 
 ### Hyperparameter Optimization
 
