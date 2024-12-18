@@ -2,6 +2,9 @@
 
 Welcome to EpiCare, a benchmarking library for reinforcement learning in healthcare applications. This ReadMe provides a guide to installing, configuring, and utilizing EpiCare.
 
+# Paper
+Pleases read the associated [NeurIPS paper](https://openreview.net/pdf?id=dF22s2GoX0) and cite us if you use our code.
+
 ## Installation
 
 To get started with EpiCare, please follow the installation steps below:
