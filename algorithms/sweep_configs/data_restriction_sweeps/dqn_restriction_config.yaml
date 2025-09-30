@@ -35,7 +35,7 @@ parameters:
       - 32
   qf_lr:
     values:
-      - 1e-4
+      - 0.0001
   alpha:
     values:
       - 0.0

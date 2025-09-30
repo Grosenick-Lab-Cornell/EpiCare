@@ -5,9 +5,9 @@ metric:
 parameters:
   actor_lr:
     values:
-      - 3e-4
-      - 1e-4
-      - 3e-5
+      - 0.0003
+      - 0.0001
+      - 0.00003
   frame_stack:
     values:
       - 1
